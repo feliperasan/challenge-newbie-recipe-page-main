@@ -6,60 +6,65 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Young+Serif">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit">
   <title>Frontend Mentor | Recipe page</title>
 </head>
 <body>
   <div class="container__img">
     <img src="./assets/images/image-omelette.jpeg"/>
   </div>
-  <section class="container_section__format">
+  <section class="container_sections__format">
     <h1>Simple Omelette Recipe</h1>
 
     <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
     to perfection, optionally filled with your choice of cheese, vegetables, or meats.<p>
 
-    <section class="container_subsection__format">
-      <h3 id="sub-title__style">Preparation time</h3>
-      <ul>
-        <li>Total: Approximately 10 minutes</li>
-        <li>Preparation: 5 minutes</li>
-        <li>Cooking: 5 minutes</li>
+    <section id="preparation_section__format">
+      <h3>Preparation time</h3>
+      <ul id="preparation_list__format">
+        <li>
+          <p><b>Total:</b> Approximately 10 minutes<p>
+        </li>
+        <li>
+          <p><b>Preparation:</b> 5 minutes<p>
+        </li>
+        <li>
+          <p><b>Cooking:</b> 5 minutes</p>
+        </li>
       </ul>
     </section>
   </section>
 
-  <section class="container_section__format">
+  <section class="container_sections__format">
     <h2>Ingredients</h2>
-    <ul>
-      <li>2-3 large eggs</li>
-      <li>Salt, to taste</li>
-      <li>Pepper, to taste</li>
-      <li>1 tablespoon of butter or oil</li>
-      <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+    <ul id="ingredients_list__format">
+      <li><p>2-3 large eggs</p></li>
+      <li><p>Salt, to taste</p></li>
+      <li><p>Pepper, to taste</p></li>
+      <li><p>1 tablespoon of butter or oil</p></li>
+      <li><p>Optional fillings: cheese, diced vegetables, cooked meats, herbs</p></li>
     </ul>
   </section>
 
-  <hr>
-
-  <section class="container_section__format">
+  <section class="container_sections__format">
     <h2>Instructions</h2>
-    <ol>
-      <li>Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
-      You can add a tablespoon of water or milk for a fluffier texture.</li>
+    <ol id="instructions_list__format">
+      <li><p><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+      You can add a tablespoon of water or milk for a fluffier texture.</p></li>
 
-      <li>Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+      <li><p><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</p></li>
 
-      <li>Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
-      the eggs evenly coat the surface.</li>
+      <li><p><b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+      the eggs evenly coat the surface.</p></li>
 
-      <li>Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
-      middle, sprinkle your chosen fillings over one half of the omelette.</li>
+      <li><p><b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the 
+      middle, sprinkle your chosen fillings over one half of the omelette.</p></li>
 
-      <li>Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
-      fillings. Let it cook for another minute, then slide it onto a plate.</li>
+      <li><p><b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the 
+      fillings. Let it cook for another minute, then slide it onto a plate.</p></li>
 
-      <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+      <li><p><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</p></li>
   </section>
 
   <section class="container_section__format">
@@ -68,30 +73,24 @@
     <p>The table below shows nutritional values per serving without the additional fillings.<p>
 
     <table>
-      <ld>
-        <lu>Calories</lu>
-        <lu>277kcal</lu>
-      </ld>
+      <td>
+        <tr>Calories
+        277kcal</tr>
+            
+        <tr>Carbs
+        0g</tr>
+      
+        <tr>Protein
+        20g</tr>
 
-      <ld>
-        Carbs
-        0g
-      </ld>
-      
-      <ld>
-        Protein
-        20g
-      </ld>
-      
-      <ld>
-        Fat
-        22g
-      </ld>
+        <tr>Fat
+        22g</tr>
+      <td>
     </table>
   </section>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Felipe Barbosa</a>.
   </div>
 </body>
 </html>
