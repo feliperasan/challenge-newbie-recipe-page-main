@@ -1,4 +1,5 @@
 * {
+  font-family: "Outfit", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,38 +17,220 @@
   --Dark-Charcoal: hsl(24, 5%, 18%);
 }
 
+body {
+  background-color: var(--Eggshell);
+}
+
+main {
+  background-color: var(--White);
+  border-radius: 20px;
+  margin: auto auto;
+  padding: auto auto;
+}
+
 h1 {
+  font-family: young-serif;
+  font-weight: 400;
   margin-bottom: 25px;
   color: var(--Dark-Charcoal);
 }
 
 p {
   font-size: 16px;
-  color: var(--Dark-Charcoal);
+  color: var(--Wenge-Brown);
 }
 
 h2 {
+  font-family: "Young Serif";
+  font-weight: 400;
   color: var(--Nutmeg);
   margin-bottom: 25px;
 }
 
-.container_subsection__format h3 {
+h3 {
   color: var(--Dark-Raspberry);
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.attribution {
+  font-size: 11px; 
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 375px) {
-  .container__img img {
+
+  .container_img__format img {
     max-width: 375px;
   }
 
-  .container_section__format {
-    padding: 0 25px;
-    margin-top: 25px;
+  .container_sections__format {
+    padding: 0 20px;
+    margin: 30px 0;
   }
 
-  .container_subsection__format {
+  /*------------ PREPARATION --------------*/
+  #preparation_section__format {
     background-color: var(--Rose-White);
     border-radius: 8px;
     margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #preparation_list__format li {
+    margin-left: 48px;
+    padding: 8px 0 0 25px
+  }
+
+  /*------------ INGREDIENTS ------------*/
+  #ingredients_list__format {
+    padding: 0 20px; 
+  }
+
+  #ingredients_list__format li {
+    margin-left: 5px;
+    padding: 8px 0 0 12px;
+  }
+
+
+  /*----------- INSTRUCTIONS -----------*/
+  #instructions_list__format {
+    padding: 0 20px;
+  }
+
+  #instructions_list__format li {
+     margin-left: 5px;
+     padding: 8px 0 0 12px;
+  }
+
+  /*----------- NUTRITION ------------*/
+
+}
+
+
+@media (min-width: 376px) and (max-width: 1439px) {
+  body {
+    padding: 50px 0;
+  }  
+
+  main {
+    width: 800px;
+  }
+
+  .container_img__format {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .container_img__format img {
+    width: 750px;
+    border-radius: 20px;
+  }
+
+  .container_sections__format {
+    padding: 0 25px;
+    margin: 30px 0;
+  }
+
+  /*------------ PREPARATION --------------*/
+  #preparation_section__format {
+    background-color: var(--Rose-White);
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #preparation_list__format li {
+    margin-left: 48px;
+    padding: 8px 0 0 25px
+  }
+
+  /*------------ INGREDIENTS ------------*/
+  #ingredients_list__format {
+    padding: 0 20px; 
+  }
+
+  #ingredients_list__format li {
+    margin-left: 5px;
+    padding: 8px 0 0 12px;
+  }
+
+  /*----------- INSTRUCTIONS -----------*/
+  #instructions_list__format {
+    padding: 0 20px;
+  }
+
+  #instructions_list__format li {
+     margin-left: 5px;
+     padding: 8px 0 0 12px;
+  }
+}
+
+ 
+@media (min-width: 1440px) {
+
+  body {
+    padding: 50px 0;
+  }  
+
+  main {
+    width: 800px;
+  }
+
+  .container_img__format {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .container_img__format img {
+    width: 730px;
+    border-radius: 20px;
+  }
+
+  .container_sections__format {
+    padding: 0 25px;
+    margin: 30px 0;
+  }
+
+  /*------------ PREPARATION --------------*/
+  #preparation_section__format {
+    background-color: var(--Rose-White);
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #preparation_list__format li {
+    margin-left: 48px;
+    padding: 8px 0 0 25px
+  }
+
+  /*------------ INGREDIENTS ------------*/
+  #ingredients_list__format {
+    padding: 0 20px; 
+  }
+
+  #ingredients_list__format li {
+    margin-left: 5px;
+    padding: 8px 0 0 12px;
+  }
+
+  /*----------- INSTRUCTIONS -----------*/
+  #instructions_list__format {
+    padding: 0 20px;
+  }
+
+  #instructions_list__format li {
+     margin-left: 5px;
+     padding: 8px 0 0 12px;
   }
 }
