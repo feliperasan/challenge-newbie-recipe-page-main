@@ -29,8 +29,9 @@ main {
 }
 
 h1 {
-  font-family: young-serif;
+  font-family: "Young Serif";
   font-weight: 400;
+  font-size: 36px;
   margin-bottom: 25px;
   color: var(--Dark-Charcoal);
 }
@@ -43,6 +44,7 @@ p {
 h2 {
   font-family: "Young Serif";
   font-weight: 400;
+  font-size: 28px;
   color: var(--Nutmeg);
   margin-bottom: 25px;
 }
@@ -50,7 +52,15 @@ h2 {
 h3 {
   color: var(--Dark-Raspberry);
   margin-left: 25px;
+  font-weight: 600px;
   margin-bottom: 15px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  margin-top: 30px;
+  background-color: var(--Light-Grey);
 }
 
 .attribution {
